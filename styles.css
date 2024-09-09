@@ -86,7 +86,33 @@ body {
 .sign-up {
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   margin-left: 250px;
+}
+
+.call-for-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.call-for-action-window {
+  background-color: #3882f6;
+  border-radius: 4px;
+  color: #e5e7eb;
+  display: flex;
+  padding: 50px;
+}
+
+
+
+.sign-up-button-2 {
+    border-color: #e5e7eb;
+    border: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
 }
