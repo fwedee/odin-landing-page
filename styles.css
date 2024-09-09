@@ -116,3 +116,26 @@ body {
     color: #e5e7eb;
     font-weight: bold;
 }
+
+
+
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E7EB ;
+    margin-bottom: 25px;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+    font-style: italic; 
+
+}
+
+.author {
+    font-weight: bold;
+}
