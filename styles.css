@@ -139,3 +139,32 @@ body {
 .author {
     font-weight: bold;
 }
+
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.image-card {
+  border: 1px solid #3882f6;
+  border-radius: 4px;
+  padding-bottom: 16px;
+  width: 150px;
+  height: 200px;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 48px;
+}
+
+.text-image {
+  text-align: center;
+}
