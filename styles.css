@@ -39,13 +39,14 @@ body {
     justify-content: center;
     gap: 50px;
     margin: 0;
-    padding: 0;
+    padding-bottom: 25px;
 }
 
 .title {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 0;
 }
 
 .title-subtext, .image-container{
