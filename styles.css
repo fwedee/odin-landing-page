@@ -156,6 +156,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  padding: 120px 120px 120px  120px;
 }
 
 .quote-section .quote-text {
@@ -174,6 +176,7 @@ ul {
   font-weight: bold;
   content: close-quote;
   margin-left: auto;
+  font-size: 28px;
 }
 
 .sign-up-section .container {
