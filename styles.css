@@ -1,45 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
-.header,
-.footer {
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.navbar {
   background-color: #1f2937;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.navbar .container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.navar a:hover {
+  color: lightblue ;
+}
+
+.navbar {
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.navbar ul {
+  display: flex;
+  gap: 16px;
 }
 
 .footer {
   justify-content: center;
   align-items: center;
   color: #e5e7eb;
-}
-
-.header {
-  justify-content: space-around;
-  align-items: center;
-}
-
-.left-header {
-  font-size: 24px;
-  color: #f9faf8;
-  font-weight: bold;
-}
-
-.right-links {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  gap: 16px;
-}
-.header-link {
-  text-decoration: none;
-  color: #e5e7eb;
-  font-size: 18px;
 }
 
 .top {
@@ -105,41 +127,34 @@ body {
   padding: 50px;
 }
 
-
-
 .sign-up-button-2 {
-    border-color: #e5e7eb;
-    border: 1px;
-    border-style: solid;
-    border-radius: 4px;
-    background-color: #3882f6;
-    color: #e5e7eb;
-    font-weight: bold;
+  border-color: #e5e7eb;
+  border: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: bold;
 }
-
-
-
 
 .quote {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #E5E7EB ;
-    margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  margin-bottom: 25px;
 }
 .quote-text {
-    font-size: 36px;
-    font-weight: 100;
-    color: #1F2937;
-    font-style: italic; 
-
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
+  font-style: italic;
 }
 
 .author {
-    font-weight: bold;
+  font-weight: bold;
 }
-
 
 .mid {
   display: flex;
@@ -156,7 +171,6 @@ body {
   width: 150px;
   height: 200px;
 }
-
 
 .cards {
   display: flex;
