@@ -85,7 +85,7 @@ ul {
   flex: 1;
 }
 
-.header .sign-up {
+.header .title-div {
   flex: 1;
 }
 
@@ -97,30 +97,6 @@ ul {
 }
 
 
-.call-for-action {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 25px;
-}
-
-.call-for-action-window {
-  background-color: #3882f6;
-  border-radius: 4px;
-  color: #e5e7eb;
-  display: flex;
-  padding: 50px;
-}
-
-.sign-up-button-2 {
-  border-color: #e5e7eb;
-  border: 1px;
-  border-style: solid;
-  border-radius: 4px;
-  background-color: #3882f6;
-  color: #e5e7eb;
-  font-weight: bold;
-}
 
 .quote {
   display: flex;
@@ -168,10 +144,43 @@ ul {
   text-align: center;
 }
 
+
+.sign-up-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+}
+
+
+.sign-up-section .sign-up-box {
+  background-color: #3882f6;
+  border-radius: 4px;
+  color: #e5e7eb;
+  display: flex;
+}
+
+.sign-up-section .sign-up-button {
+  border-color: #e5e7eb;
+  border: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: bold;
+  flex: 1;
+}
+.sign-up-section .call-for-action-window {
+  flex: 2;
+}
+
+
+
 .footer .container {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #e5e7eb;
+  font-size: 18px;
   height: 100%;
 }
