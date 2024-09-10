@@ -16,7 +16,8 @@ body {
   padding: 0 30px;
 }
 
-.navbar {
+.navbar,
+.footer {
   background-color: #1f2937;
 }
 
@@ -44,7 +45,7 @@ ul {
 }
 
 .navar a:hover {
-  color: lightblue ;
+  color: lightblue;
 }
 
 .navbar {
@@ -52,16 +53,9 @@ ul {
   align-items: center;
 }
 
-
 .navbar ul {
   display: flex;
   gap: 16px;
-}
-
-.footer {
-  justify-content: center;
-  align-items: center;
-  color: #e5e7eb;
 }
 
 .top {
@@ -181,4 +175,12 @@ ul {
 
 .text-image {
   text-align: center;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  height: 100%;
 }
