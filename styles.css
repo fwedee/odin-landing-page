@@ -98,24 +98,7 @@ ul {
 
 
 
-.quote {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #e5e7eb;
-  margin-bottom: 25px;
-}
-.quote-text {
-  font-size: 36px;
-  font-weight: 100;
-  color: #1f2937;
-  font-style: italic;
-}
 
-.author {
-  font-weight: bold;
-}
 
 .mid {
   display: flex;
@@ -142,6 +125,36 @@ ul {
 
 .text-image {
   text-align: center;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quote-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.quote-section .quote-text {
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
+  font-style: italic;
+}
+
+
+.quote-section .quote-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-section .author {
+  font-weight: bold;
+	content: close-quote;
+  margin-left: auto;
 }
 
 
