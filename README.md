@@ -7,6 +7,6 @@ In this exercise a webpage-design needs to be recreated as near as possible to t
 
 #### To-do:
 - [x] Create structure of the webpage
-- [ ] Style the webpage
+- [x] Style the webpage
 - [ ] Add content to page
 
